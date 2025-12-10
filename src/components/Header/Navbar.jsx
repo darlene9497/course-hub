@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import logoImg from '../../assets/images/logo.png'
-import searchIcon from '../../assets/icons/search.png'
-import userIcon from '../../assets/icons/user.png'
+import Logo from '../../assets/images/logo.svg?react'
+import ArrowDown from '../../assets/icons/arrowdown.svg?react'
+import SearchIcon from '../../assets/icons/search.svg?react'
+import UserIcon from '../../assets/icons/user.svg?react'
 import { Button } from '../Button/Button'
 
 export function Navbar () {
@@ -10,81 +11,28 @@ export function Navbar () {
     return(
         <nav className='max-w-[1200px] mx-auto py-2 font-sora text-sm px-2 md:px-0'>
             <div className="flex items-center justify-between">
-                <div className="">
-                    <img
-                    src={logoImg}
-                    alt="edunity logo"
-                    className="md:h-10 h-8"/>
-                </div>
+                <Logo className="h-8 md:h-10 w-auto" />
 
                 {/* desktop menu */}
                 <ul className='hidden lg:flex text-text-primary gap-10'>
                     <li className='flex items-center gap-1'>
                         Home 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                        <ArrowDown />
                     </li>
                     <li>
                         About Us
                     </li>
                     <li className='flex items-center gap-1'>
                         Courses 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                        <ArrowDown />
                     </li>
                     <li className='flex items-center gap-1'>
                         Pages 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                        <ArrowDown />
                     </li>
                     <li className='flex items-center gap-1'>
                         Blog 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                        <ArrowDown />
                     </li>
                     <li>
                         Contact
@@ -94,10 +42,10 @@ export function Navbar () {
                 {/* desktop icons */}
                 <ul className='hidden lg:flex items-center gap-5'>
                     <li>
-                        <img src={searchIcon} alt="search icon" width={20} className='cursor-pointer'/>
+                        <SearchIcon width={20} className='cursor-pointer'/>
                     </li>
                     <li>
-                        <img src={userIcon} alt="user icon" width={20} className='cursor-pointer' />
+                        <UserIcon width={20} className='cursor-pointer' />
                     </li>
                     <li>
                         <Button
@@ -130,70 +78,22 @@ export function Navbar () {
                     <ul className='flex flex-col text-text-primary gap-4'>
                         <li className='flex items-center justify-between'>
                             Home 
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                            <ArrowDown />
                         </li>
                         <li>
                             About Us
                         </li>
                         <li className='flex items-center justify-between'>
                             Courses 
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                            <ArrowDown />
                         </li>
                         <li className='flex items-center justify-between'>
                             Pages 
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                            <ArrowDown />
                         </li>
                         <li className='flex items-center justify-between'>
                             Blog 
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            className="size-3 stroke-[3]"
-                            >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19.5 8.25 12 15.75 4.5 8.25"
-                            />
-                        </svg>
+                            <ArrowDown />
                         </li>
                         <li>
                             Contact
@@ -202,10 +102,10 @@ export function Navbar () {
 
                     <ul className='flex items-center justify-center gap-5 mt-6 pt-4 border-t border-gray-200'>
                         <li>
-                            <img src={searchIcon} alt="search icon" width={20} className='cursor-pointer'/>
+                            <SearchIcon width={20} className='cursor-pointer'/>
                         </li>
                         <li>
-                            <img src={userIcon} alt="user icon" width={20} className='cursor-pointer' />
+                            <UserIcon width={20} className='cursor-pointer' />
                         </li>
                     </ul>
 
