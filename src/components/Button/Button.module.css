@@ -1,0 +1,18 @@
+.btn {
+    padding: 0.9rem 2rem;
+    border-radius: 3.75rem;
+    border: none;
+    color: white;
+    font-family: var(--font-sora);
+    cursor: pointer;
+    font-size: var(--font-size-xs);
+}
+
+/* variants */
+.primary {
+    background-color: var(--color-primary);
+}
+
+.secondary {
+    background-color: var(--color-secondary);
+}
