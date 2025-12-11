@@ -7,6 +7,7 @@
     --color-secondary: #FF9500;
     --color-accent: #17254E;
     --color-light-background: #FFF8F0;
+    --color-grey-background: #F3F5F5;
 
     /* text colors */
     --color-text-primary: #0E2A46;
@@ -15,7 +16,6 @@
 
     /* font families */
     --font-sora: "Sora", sans-serif;
-    --font-poppins: "Poppins", sans-serif;
     --font-epilogue: "Epilogue", sans-serif;
 
     /* typography */
