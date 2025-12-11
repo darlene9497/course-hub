@@ -9,7 +9,7 @@ export function Navbar () {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
     return(
-        <nav className='max-w-[1200px] mx-auto py-2 font-sora text-sm px-2 md:px-0'>
+        <nav className='max-w-[1320px] mx-auto py-2 font-sora text-sm px-2 md:px-0'>
             <div className="flex items-center justify-between">
                 <Logo className="h-8 md:h-10 w-auto" />
 

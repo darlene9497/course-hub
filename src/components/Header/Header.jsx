@@ -4,9 +4,9 @@ import { Topbar } from "./Topbar";
 
 export function Header () {
     return(
-        <header>
+        <>
             <Topbar />
             <Navbar />
-        </header>
+        </>
     )
 }
