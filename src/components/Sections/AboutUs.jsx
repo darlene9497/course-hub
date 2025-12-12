@@ -11,7 +11,7 @@ import HeroBird from '../../assets/images/hero-bird.svg?react'
 
 export function AboutUs() {
     return(
-        <div className='relative'>
+        <section className='relative'>
             <AboutCloud className='ml-20' />
             <div className='flex max-w-[1320px] mx-auto gap-15 font-sora mb-20 relative'>
                 <InfoOverlay 
@@ -66,6 +66,6 @@ export function AboutUs() {
                 </div>
             </div>
             <HeroBird className="absolute bottom-0 right-0 scale-x-[-1]" />
-        </div>
+        </section>
     )
 }
