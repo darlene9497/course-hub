@@ -1,0 +1,21 @@
+.item-card {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: #191659;
+}
+
+.item-card.item-card--primary {
+    gap: 0.7rem;
+    height: 54px;
+    border-radius: 5px;
+    background-color: var(--color-grey-background);
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.item-card.item-card--secondary {
+    text-transform: capitalize;
+    font-size: var(--font-size-xl);
+    gap: 5px;
+}

@@ -6,6 +6,7 @@
     font-family: var(--font-sora);
     cursor: pointer;
     font-size: var(--font-size-xs);
+    text-transform: capitalize;
 }
 
 /* variants */
