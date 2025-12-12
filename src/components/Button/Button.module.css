@@ -12,8 +12,26 @@
 /* variants */
 .primary {
     background-color: var(--color-primary);
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.primary:hover {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background-color: transparent;
 }
 
 .secondary {
+    border: 1px solid transparent;
     background-color: var(--color-secondary);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.secondary:hover {
+    color: var(--color-secondary);
+    border-color:  var(--color-secondary);
+    background-color: transparent;
 }
