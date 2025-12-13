@@ -20,3 +20,9 @@
 .title-context__max span {
     color: var(--color-secondary);
 }
+
+.title-context.title-context--center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

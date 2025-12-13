@@ -1,9 +1,9 @@
 import AboutSymbol from '../../assets/icons/abt-symbol.svg?react'
 import './Title.css'
 
-export function Title({title, children}) {
+export function Title({title, children, align="start"}) {
     return(
-        <div className='title-context'>
+        <div className={`title-context title-context--${align}`}>
             <div className='title-context__mini'>
                 <AboutSymbol />
                 <h5>{title}</h5>

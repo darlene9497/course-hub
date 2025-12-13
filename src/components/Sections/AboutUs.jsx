@@ -1,4 +1,4 @@
-import AboutCloud from '../../assets/icons/hero-ill3.svg?react'
+import AboutCloud from '../../assets/icons/cloud.svg?react'
 import AboutImg1 from '../../assets/images/about-us1.svg?react'
 import AboutImg2 from '../../assets/images/about-us2.svg?react'
 import { Title } from '../Heading/Title'

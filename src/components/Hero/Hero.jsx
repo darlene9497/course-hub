@@ -4,7 +4,7 @@ import { Button } from '../Button/Button'
 import PlayIcon from '../../assets/icons/play.svg?react'
 import Heroill1 from '../../assets/icons/hero-ill1.svg?react'
 import Heroill2 from '../../assets/icons/hero-ill2.svg?react'
-import Heroill3 from '../../assets/icons/hero-ill3.svg?react'
+import Cloud from '../../assets/icons/cloud.svg?react'
 import HeroChild1 from '../../assets/images/hero-child1.svg?react'
 import HeroChild2 from '../../assets/images/hero-child2.svg?react'
 import { InfoOverlay } from '../Overlay/InfoOverlay'
@@ -60,7 +60,7 @@ export function Hero() {
             </div>
             <HeroSun className="absolute top-10 right-0"/>
             <Heroill1 className="absolute bottom-10 right-20"/>
-            <Heroill3 className="absolute bottom-15 left-160"/>
+            <Cloud className="absolute bottom-15 left-160"/>
             <InfoOverlay 
             title="10K+"
             variant="primary"

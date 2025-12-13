@@ -3,6 +3,7 @@ import { Hero } from "../../components/Hero/Hero";
 import { AboutUs } from "../../components/Sections/AboutUs";
 import { Info } from "../../components/Sections/Info";
 import { MidSection } from "../../components/Sections/MidSection";
+import { Testimonials } from "../../components/Sections/Testimonials";
 import { WhyUs } from "../../components/Sections/WhyUs";
 
 export default function Landing () {
@@ -17,6 +18,7 @@ export default function Landing () {
                 <AboutUs />
                 <MidSection />
                 <WhyUs />
+                <Testimonials />
             </main>
         </div>
     )
