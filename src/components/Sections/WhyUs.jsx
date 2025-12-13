@@ -1,0 +1,67 @@
+import { Title } from "../Heading/Title"
+import HeroBird from '../../assets/images/hero-bird.svg?react'
+import WhyusImg from '../../assets/images/why-us.svg?react'
+import { ItemCard } from "../Card/ItemCard"
+import ItemIcon2 from '../../assets/icons/item-icon2.svg?react'
+import { Button } from '../Button/Button'
+import CarIllIcon from '../../assets/icons/car-ill.svg?react'
+import RainbowIcon from '../../assets/icons/rainbow.svg?react'
+import SplashIcon from '../../assets/icons/splash.svg?react'
+import WaveIcon from '../../assets/icons/wave.svg?react'
+
+export function WhyUs() {
+    return(
+        <div className="bg-grey-background font-sora pb-25 relative">
+            <HeroBird />
+            <div className="max-w-[1320px] md:flex mx-auto items-center gap-10">
+                <div className="relative">.
+                    <CarIllIcon
+                    className="absolute right-40 -top-5"
+                    />
+                    <Title title="why choose us">
+                        new approach to fun
+                    </Title>
+                    <p className='text-text-secondary leading-[32.3px] mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                    <div className="md:grid grid-cols-2 gap-1">
+                        <ItemCard
+                        icon={<ItemIcon2 />}
+                        text="Best teaching"
+                        variant="secondary"
+                        />
+                        <ItemCard
+                        icon={<ItemIcon2 />}
+                        text="Quality educators"
+                        variant="secondary"
+                        />
+                        <ItemCard
+                        icon={<ItemIcon2 />}
+                        text="Expert tutors"
+                        variant="secondary"
+                        />
+                        <ItemCard
+                        icon={<ItemIcon2 />}
+                        text="Affordable"
+                        variant="secondary"
+                        />
+                    </div>
+                    <Button
+                    text="Find events"
+                    className='mt-5'
+                    />
+                    <RainbowIcon
+                    className="absolute right-30" 
+                    />
+                </div>
+                <div className="relative">
+                    <WhyusImg
+                    className="relative z-10"
+                    />
+                    <SplashIcon
+                    className="absolute -top-13 -right-18"
+                    />
+                </div>
+            </div>
+            <WaveIcon className="absolute right-10 bottom-5" />
+        </div>
+    )
+}
