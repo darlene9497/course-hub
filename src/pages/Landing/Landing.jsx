@@ -4,6 +4,7 @@ import { AboutUs } from "../../components/Sections/AboutUs";
 import { Info } from "../../components/Sections/Info";
 import { Instructors } from "../../components/Sections/Instructor";
 import { MidSection } from "../../components/Sections/MidSection";
+import { Newsletter } from "../../components/Sections/Newsletter";
 import { Testimonials } from "../../components/Sections/Testimonials";
 import { WhyUs } from "../../components/Sections/WhyUs";
 
@@ -21,6 +22,7 @@ export default function Landing () {
                 <WhyUs />
                 <Testimonials />
                 <Instructors />
+                <Newsletter />
             </main>
         </div>
     )
