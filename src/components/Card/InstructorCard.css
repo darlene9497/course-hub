@@ -1,0 +1,38 @@
+.instructor-card {
+    background-color: white;
+    width: fit-content;
+    position: relative;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.instructor__card-details {
+    padding: 20px;
+}
+
+.instructor-card__name {
+    font-family: var(--font-epilogue);
+    color: var(--color-text-primary);
+    font-size: 1.3125rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.instructor-card__role {
+    font-family: var(--font-sora);
+    color: var(--color-secondary);
+    font-size: 17px;
+}
+
+.instructor-card__share {
+    background-color: var(--color-primary);
+    width: fit-content;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 5.5rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
