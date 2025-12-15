@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
 import { Hero } from "../../components/Hero/Hero";
 import { AboutUs } from "../../components/Sections/AboutUs";
@@ -7,6 +8,7 @@ import { MidSection } from "../../components/Sections/MidSection";
 import { Newsletter } from "../../components/Sections/Newsletter";
 import { Testimonials } from "../../components/Sections/Testimonials";
 import { WhyUs } from "../../components/Sections/WhyUs";
+import FooterBg from '../../assets/images/footer.jpg'
 
 export default function Landing () {
     return(
@@ -24,6 +26,9 @@ export default function Landing () {
                 <Instructors />
                 <Newsletter />
             </main>
+            <footer style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">
+                <Footer />
+            </footer>
         </div>
     )
 }
