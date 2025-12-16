@@ -6,16 +6,16 @@ import Sun from '../../assets/images/hero-sun.svg?react'
 
 export function Testimonials() {
     return(
-        <div className="relative py-30">
+        <div className="relative lg:py-30 py-15 px-5 lg:px-0">
             <Cloud
             className="absolute bottom-35 left-10"
             />
             <div className='max-w-[1320px] mx-auto'>
                 <div>
-                    <Title title="Testimonial" align='center'>
+                    <Title title="Testimonials" align='center'>
                         What parents say
                     </Title>
-                    <div className='md:grid grid-cols-3 gap-10 mt-10'>
+                    <div className='lg:grid grid-cols-3 lg:gap-10 mt-10 flex flex-col items-center gap-5'>
                         <TestimonialCard
                         image={<User1 />}
                         name="Kathy Sullivan"

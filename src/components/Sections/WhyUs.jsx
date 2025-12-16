@@ -11,12 +11,12 @@ import WaveIcon from '../../assets/icons/wave.svg?react'
 
 export function WhyUs() {
     return(
-        <div className="bg-grey-background font-sora pb-25 relative">
-            <HeroBird />
+        <div className="bg-grey-background font-sora pb-25 pt-10 lg:pt-0 relative px-5 lg:px-0">
+            <HeroBird className="hidden lg:block" />
             <div className="max-w-[1320px] md:flex mx-auto items-center gap-10">
-                <div className="relative">.
+                <div className="relative">
                     <CarIllIcon
-                    className="absolute right-40 -top-5"
+                    className="absolute lg:right-40 -top-10 right-10"
                     />
                     <Title title="why choose us">
                         new approach to fun
@@ -49,15 +49,15 @@ export function WhyUs() {
                     className='mt-5'
                     />
                     <RainbowIcon
-                    className="absolute right-30" 
+                    className="hidden lg:block absolute right-30" 
                     />
                 </div>
                 <div className="relative">
                     <WhyusImg
-                    className="relative z-10"
+                    className="relative z-10 lg:w-auto w-full h-full mt-10 lg:mt-0"
                     />
                     <SplashIcon
-                    className="absolute -top-13 -right-18"
+                    className="hidden lg:block absolute -top-13 -right-18"
                     />
                 </div>
             </div>

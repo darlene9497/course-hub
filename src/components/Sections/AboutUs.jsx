@@ -13,30 +13,30 @@ export function AboutUs() {
     return(
         <section className='relative'>
             <AboutCloud className='ml-20' />
-            <div className='flex max-w-[1320px] mx-auto gap-15 font-sora mb-20 relative'>
+            <div className='lg:flex max-w-[1320px] mx-auto gap-15 font-sora mb-20 relative px-5 lg:px-0'>
                 <InfoOverlay 
                 title="Happy"
                 variant="secondary"
                 description="Students" 
                 icon={<InfoOverlayImg />}
-                className='absolute top-15 left-5'
+                className='hidden lg:flex absolute top-15 left-5'
                 />
 
                 <div className='h-3 w-3 bg-orange rounded-full absolute left-10 top-50'></div>
 
-                <div className='flex gap-8'>
-                    <div className='flex items-end'>
+                <div className='lg:flex gap-8'>
+                    <div className='flex lg:items-end justify-center'>
                         <AboutImg1 className="border pl-1 rounded-[300px] border-t-0 border-r-0 border-orange" />
                     </div>
-                    <div className='my-8 border pl-1 rounded-[300px] border-t-0 border-r-0 border-orange'>
+                    <div className='hidden lg:block my-8 border pl-1 rounded-[300px] border-t-0 border-r-0 border-orange'>
                         <AboutImg2 />
                     </div>
                 </div>
 
-                <div className='h-6 w-6 bg-secondary rounded-full absolute left-135 top-10'></div>
-                <div className='h-3 w-3 bg-primary rounded-full absolute left-135 bottom-5'></div>
+                <div className='hidden lg:block h-6 w-6 bg-secondary rounded-full absolute left-135 top-10'></div>
+                <div className='hidden lg:block h-3 w-3 bg-primary rounded-full absolute left-135 bottom-5'></div>
 
-                <div className='md:flex flex-col justify-center'>
+                <div className='md:flex flex-col justify-center lg:mt-0 mt-10' >
                     <Title title="About us" >
                         It's our passion to work with children at <span>kindergarten.</span>
                     </Title>

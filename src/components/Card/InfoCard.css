@@ -48,3 +48,25 @@
 .info-card--primary .info-card__desc {
     color: white;
 }
+
+@media (max-width: 768px) {
+    .info-card {
+        padding: 24px 12px 20px 16px;
+        gap: 12px;
+        border-radius: 36px;
+    }
+
+    .info-card__icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    .info-card__title {
+        font-size: 1rem;
+    }
+
+    .info-card__desc {
+        line-height: 24px;
+        font-size: 0.875rem;
+    }
+}

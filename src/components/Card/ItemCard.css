@@ -3,6 +3,10 @@
     align-items: center;
     width: fit-content;
     color: #191659;
+
+    @media (max-width: 768px) {
+        font-size: var(--font-size-sm);
+    }
 }
 
 .item-card.item-card--primary {
@@ -18,4 +22,8 @@
     text-transform: capitalize;
     font-size: var(--font-size-xl);
     gap: 5px;
+
+    @media (max-width: 768px) {
+        font-size: var(--font-size-lg);
+    }
 }

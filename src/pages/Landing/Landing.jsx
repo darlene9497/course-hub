@@ -12,7 +12,7 @@ import FooterBg from '../../assets/images/footer.jpg'
 
 export default function Landing () {
     return(
-        <div className="md:max-w-[1920px] mx-auto">
+        <div className="md:max-w-[1920px] mx-auto overflow-x-hidden">
             <header>
                 <Header />
             </header>

@@ -10,10 +10,10 @@ export function MidSection() {
     return (
         <>
             <div className="w-full flex justify-center overflow-hidden relative">
-                <MidImg className="block -mb-5"/>
+                <MidImg className="block -mb-5 h-auto"/>
                 <MidFlower className="absolute bottom-0 right-30"/>
             </div>
-            <div className="md:grid grid-cols-4 max-w-[1200px] mx-auto mb-20">
+            <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-0 gap-4 max-w-[1200px] mx-auto lg:mb-20 mb-10 px-5 lg:px-0 py-5 lg:py-0">
                 <div className="relative flex justify-center">
                     <Stats
                     icon={<StatsIcon1 />} 

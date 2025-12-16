@@ -11,7 +11,7 @@ export function Navbar () {
     return(
         <nav className='max-w-[1320px] mx-auto py-2 font-sora text-sm px-2 md:px-0'>
             <div className="flex items-center justify-between">
-                <Logo className="h-8 md:h-10 w-auto" />
+                <Logo className="h-8 lg:h-10 w-auto" />
 
                 {/* desktop menu */}
                 <ul className='hidden lg:flex text-text-primary gap-10'>
