@@ -9,7 +9,7 @@ export function Navbar () {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
     return(
-        <nav className='max-w-[1320px] mx-auto py-2 font-sora text-sm px-2 md:px-0'>
+        <nav className='relative max-w-[1320px] mx-auto py-2 font-sora text-sm px-2 md:px-0 z-50'>
             <div className="flex items-center justify-between">
                 <Logo className="h-10 lg:h-auto"/>
 
@@ -74,8 +74,8 @@ export function Navbar () {
 
             {/* mobile menu */}
             {isMobileMenuOpen && (
-                <div className='lg:hidden mt-4 pt-4 border-t border-gray-200'>
-                    <ul className='flex flex-col text-text-primary gap-4'>
+                <div className="lg:hidden absolute right-0 top-full w-80 px-5 py-5 bg-white shadow-lg border-t border-gray-200">
+                    <ul className='flex flex-col text-text-primary gap-8'>
                         <li className='flex items-center justify-between'>
                             Home 
                             <ArrowDown />
@@ -100,19 +100,21 @@ export function Navbar () {
                         </li>
                     </ul>
 
-                    <ul className='flex items-center justify-center gap-5 mt-6 pt-4 border-t border-gray-200'>
-                        <li>
-                            <SearchIcon width={20} className='cursor-pointer'/>
-                        </li>
-                        <li>
-                            <UserIcon width={20} className='cursor-pointer' />
-                        </li>
-                    </ul>
+                    <div className='flex justify-between items-center'>
+                        <ul className='flex items-center justify-center gap-5 mt-6 pt-4 border-t border-gray-200'>
+                            <li>
+                                <SearchIcon width={20} className='cursor-pointer'/>
+                            </li>
+                            <li>
+                                <UserIcon width={20} className='cursor-pointer' />
+                            </li>
+                        </ul>
 
-                    <div className="mt-4 flex justify-center">
-                        <Button
-                        text="Contact"
-                        variant="secondary" />
+                        <div className="mt-4 flex justify-center">
+                            <Button
+                            text="Contact"
+                            variant="secondary" />
+                        </div>
                     </div>
                 </div>
             )}
