@@ -11,10 +11,10 @@ export function Navbar () {
     return(
         <nav className='max-w-[1320px] mx-auto py-2 font-sora text-sm px-2 md:px-0'>
             <div className="flex items-center justify-between">
-                <Logo className="h-8 lg:h-10 w-auto" />
+                <Logo className="h-10 lg:h-auto"/>
 
                 {/* desktop menu */}
-                <ul className='hidden lg:flex text-text-primary gap-10'>
+                <ul className='hidden lg:flex text-text-primary gap-10 text-[17px]'>
                     <li className='flex items-center gap-1'>
                         Home 
                         <ArrowDown />
@@ -42,10 +42,10 @@ export function Navbar () {
                 {/* desktop icons */}
                 <ul className='hidden lg:flex items-center gap-5'>
                     <li>
-                        <SearchIcon width={20} className='cursor-pointer'/>
+                        <SearchIcon className='cursor-pointer'/>
                     </li>
                     <li>
-                        <UserIcon width={20} className='cursor-pointer' />
+                        <UserIcon className='cursor-pointer' />
                     </li>
                     <li>
                         <Button

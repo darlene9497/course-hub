@@ -8,7 +8,7 @@ import LinkedinIcon from '../../assets/icons/linkedIn.svg?react'
 
 export function Topbar () {
     return(
-        <div className="bg-primary text-white py-2 font-sora md:text-sm text-xs">
+        <div className="hidden md:block bg-primary text-white py-2 font-sora md:text-sm text-xs">
             <div className="max-w-[1320px] mx-auto flex flex-col md:flex-row justify-between">
                 <div className="flex gap-5 flex-wrap md:justify-start justify-center">
                     <div className="flex gap-2 items-center">
