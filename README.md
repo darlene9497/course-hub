@@ -1,5 +1,9 @@
 # Kids Learning Platform
 
+## 📚 Learning Notes
+
+- [React and DOM Summary (Google Docs)](https://docs.google.com/document/d/1sUI7M09rR9r4oBU-JZHkMTUxNLDnp-s-Mc5Ee_Cj2_4/edit?usp=sharing)
+
 A responsive, modern kids learning platform landing page built with React, Vite, and Tailwind CSS, focusing on clean UI, reusable components, and mobile-first responsiveness
 
 This project demonstrates strong frontend fundamentals, component design, and responsive layout handling across devices
